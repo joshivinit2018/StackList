@@ -1,5 +1,6 @@
 package com.bridgelabz;
 
+
 public class MyQueue {
     private final MyLinkedList myLinkedList;
     public MyQueue() {
@@ -15,5 +16,8 @@ public class MyQueue {
         return myLinkedList.head;
     }
 
+    public INode dequeue() {
+        return myLinkedList.pop();
+    }
 
 }
