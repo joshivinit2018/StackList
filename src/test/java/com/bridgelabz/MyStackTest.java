@@ -22,7 +22,7 @@ public class MyStackTest {
         myStack.push(thirdNode);
         myStack.printMyStack();
         INode peak = myStack.top();
-        Assertions Assert;
+        Assertions Assert = null;
         Assert.assertEquals(thirdNode,peak);
 
     }
