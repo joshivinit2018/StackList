@@ -2,7 +2,6 @@ package com.bridgelabz;
 
 public class MyStack {
     public MyLinkedList myLinkedList;
-
     public MyStack(){
         this.myLinkedList = new MyLinkedList();
     }
@@ -14,5 +13,10 @@ public class MyStack {
     }
     public void printMyStack() {
         myLinkedList.printMyNodes();
+    }
+
+    public INode pop() {
+        return myLinkedList.pop();
+
     }
 }
